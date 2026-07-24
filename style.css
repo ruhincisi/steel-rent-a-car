@@ -1,0 +1,225 @@
+:root{--ink:#101714;--green:#183d2f;--lime:#d9ff43;--cream:#f4f0e7;--paper:#faf9f5;--muted:#6e756f;--line:#dcded8}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}button,input,select{font:inherit}img{display:block;width:100%}.header{height:84px;padding:0 4.5vw;display:flex;align-items:center;justify-content:space-between;background:#fff;position:relative;z-index:20;border-bottom:1px solid #e5e7e4}.brand{display:flex;align-items:center;gap:11px;font:800 17px/1 "Manrope";letter-spacing:1px}.brand-mark{display:grid;place-items:center;width:38px;height:38px;background:var(--lime);color:var(--green);font-size:21px;clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%)}.brand small{display:block;font:600 7px/1.6 "DM Sans";letter-spacing:3px}.nav{display:flex;gap:34px;font-size:13px;font-weight:600}.nav a{position:relative}.nav a:after{content:"";position:absolute;left:0;bottom:-8px;width:0;height:2px;background:var(--green);transition:.3s}.nav a:hover:after{width:100%}.header-call{font-size:13px;font-weight:700}.header-call span{display:block;color:#8a918d;font-size:9px;letter-spacing:1.5px;text-align:right}.menu-btn{display:none;border:0;background:none;width:36px}.menu-btn i{display:block;height:2px;background:var(--ink);margin:7px}.hero{min-height:710px;background:var(--green);color:#fff;display:grid;grid-template-columns:45% 55%;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:70px 70px}.hero-glow{position:absolute;width:600px;height:600px;border-radius:50%;background:#2d684d;filter:blur(120px);opacity:.32;left:-260px;top:80px}.hero-content{padding:110px 0 70px 8vw;position:relative;z-index:2}.eyebrow{display:flex;align-items:center;gap:12px;font-size:10px;letter-spacing:2.5px;font-weight:700;color:#d4ddd8}.eyebrow span{width:30px;height:2px;background:var(--lime)}.eyebrow.dark{color:#687069}.hero h1,.section h2,.statement h2,.contact h2{font:700 clamp(52px,6.5vw,102px)/.93 "Manrope";letter-spacing:-5px;margin:24px 0 28px}.hero h1 em,.section h2 em,.statement h2 em,.contact h2 em{font-style:normal;color:var(--lime)}.hero-content>p{color:#b7c5be;max-width:540px;line-height:1.7;font-size:16px}.hero-actions{display:flex;align-items:center;gap:28px;margin-top:36px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:28px;border:0;min-height:58px;padding:0 25px;font-weight:700;cursor:pointer;transition:.25s}.btn-primary{background:var(--lime);color:var(--green)}.btn-primary:hover{background:#fff;transform:translateY(-2px)}.play-link{font-size:13px;font-weight:600}.play-link span{display:inline-grid;place-items:center;border:1px solid #668073;border-radius:50%;width:42px;height:42px;margin-right:9px;font-size:10px}.hero-proof{display:flex;align-items:center;gap:14px;margin-top:68px}.avatars{display:flex}.avatars i,.person i{width:35px;height:35px;border-radius:50%;display:grid;place-items:center;background:#e8cbbd;color:#453229;border:2px solid var(--green);font-style:normal;font-size:9px;margin-left:-7px}.avatars i:first-child{margin:0}.avatars i:last-child{background:var(--lime)}.hero-proof strong,.hero-proof span{display:block}.hero-proof strong{font-size:12px}.hero-proof span{font-size:10px;color:#9eb0a7;margin-top:3px}.hero-visual{position:relative;min-width:0}.hero-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--green) 0%,transparent 30%),linear-gradient(0deg,rgba(8,25,18,.55),transparent 50%)}.hero-visual img{height:100%;object-fit:cover;filter:saturate(.8) contrast(1.08)}.floating-card{position:absolute;z-index:3;left:7%;bottom:16%;background:#fff;color:var(--ink);padding:16px 20px;display:flex;gap:12px;align-items:center;box-shadow:0 20px 60px #09201666}.floating-card>span{display:grid;place-items:center;width:30px;height:30px;background:var(--lime);border-radius:50%;color:var(--green)}.floating-card strong,.floating-card small{display:block}.floating-card strong{font-size:12px}.floating-card small{font-size:9px;color:#818781;margin-top:4px}.hero-index{position:absolute;z-index:3;right:6%;bottom:6%;font:700 24px "Manrope"}.hero-index span{font-size:11px;color:#a8b5af}.scroll-cue{position:absolute;z-index:4;left:3%;bottom:4%;writing-mode:vertical-rl;font-size:8px;letter-spacing:2px;color:#9fb0a8}.scroll-cue span{margin-top:10px;color:var(--lime)}.booking-wrap{background:var(--cream);padding:0 5vw 80px}.booking{position:relative;z-index:6;top:-36px;max-width:1360px;margin:auto;background:#fff;min-height:112px;padding:20px 25px;display:grid;grid-template-columns:1.45fr 1.3fr 1fr 1fr 1fr auto;align-items:center;box-shadow:0 20px 70px #183d2f17}.booking-title{display:flex;gap:12px;align-items:center}.booking-title>span{font:700 26px "Manrope";color:#d6dbd7}.booking-title small,.booking-title strong{display:block}.booking-title small{font-size:8px;letter-spacing:1.6px;color:#9aa09b}.booking-title strong{font:700 14px "Manrope";margin-top:5px}.booking label{padding:5px 18px;border-left:1px solid #e6e8e4}.booking label>span{display:block;font-size:8px;letter-spacing:1.3px;color:#8d948e;font-weight:700;margin-bottom:8px}.booking input,.booking select{width:100%;border:0;background:transparent;color:var(--ink);font-size:12px;font-weight:600;outline:0}.section{padding:110px 8vw}.intro{display:grid;grid-template-columns:1.2fr 1fr;gap:12vw;align-items:end;background:var(--cream)}.section h2{font-size:clamp(43px,5.5vw,78px);margin:22px 0 0}.section h2 em{color:var(--green)}.intro-copy{padding-bottom:10px}.intro-copy p{font-size:17px;line-height:1.8;color:#677069;max-width:540px}.intro-copy a,.faq>div>a{display:inline-block;border-bottom:1px solid var(--ink);font-size:12px;font-weight:700;padding-bottom:7px;margin-top:18px}.benefits{display:grid;grid-template-columns:repeat(4,1fr);padding:0 8vw 110px;background:var(--cream)}.benefits article{min-height:360px;padding:28px;border:1px solid #d8d9d2;margin-left:-1px;display:flex;flex-direction:column;transition:.3s}.benefits article:hover{transform:translateY(-8px);background:#fff}.benefits article.featured{background:var(--green);color:#fff;border-color:var(--green);transform:translateY(-18px)}.benefits article>span{font-size:10px;color:#939992}.benefit-icon{font-size:37px;margin:auto 0 45px;color:var(--green)}.featured .benefit-icon{color:var(--lime)}.benefits h3{font:700 20px "Manrope";margin:0 0 12px}.benefits p{font-size:12px;line-height:1.7;color:#7c837e;margin:0}.featured p{color:#b9c5bf}.fleet{background:#fff}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:60px}.fleet-filters{display:flex;gap:6px}.fleet-filters button{border:1px solid #dfe2de;background:#fff;padding:10px 17px;font-size:10px;font-weight:700;cursor:pointer}.fleet-filters button.active{background:var(--green);color:#fff;border-color:var(--green)}.fleet-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.car-card{border:1px solid #e1e3df;transition:.3s}.car-card:hover{transform:translateY(-7px);box-shadow:0 25px 60px #16372b17}.car-card.wide{grid-column:1/-1;display:grid;grid-template-columns:1.35fr .65fr}.car-photo{height:330px;position:relative;overflow:hidden;background:#e9ebe8}.car-photo>span{position:absolute;z-index:2;left:20px;top:20px;background:var(--lime);padding:8px 11px;font-size:8px;font-weight:800;letter-spacing:1px}.car-photo img{height:100%;object-fit:cover;transition:.5s}.car-card:hover img{transform:scale(1.035)}.car-info{padding:26px}.car-info small{font-size:8px;color:#979e98;letter-spacing:1.5px}.car-info h3{font:700 25px "Manrope";margin:8px 0 22px}.car-info h3 em{display:block;font:500 10px "DM Sans";color:#8b918c;margin-top:5px}.specs{display:flex;gap:18px;color:#5e655f;font-size:10px;padding-bottom:24px;border-bottom:1px solid #e4e6e2}.car-info>a{display:flex;justify-content:space-between;font-size:11px;font-weight:700;margin-top:22px}.wide .car-photo{height:380px}.wide .car-info{display:flex;flex-direction:column;justify-content:center}.car-card.hidden{display:none}.statement{background:var(--green);color:#fff;padding:110px 8vw;display:grid;grid-template-columns:.7fr 1.3fr;align-items:center;position:relative;overflow:hidden}.statement:before{content:"STEEL";position:absolute;left:-2%;bottom:-10%;font:800 23vw "Manrope";color:#ffffff08;letter-spacing:-2vw}.statement>div{position:relative}.statement-number{font:700 clamp(80px,12vw,170px) "Manrope";letter-spacing:-10px;color:var(--lime)}.statement-number sup{font-size:.3em;vertical-align:top;letter-spacing:0}.statement-number small{display:block;font:600 10px "DM Sans";letter-spacing:2px;color:#b9c7c0;margin-left:12px}.statement h2{font-size:clamp(44px,5vw,74px);margin:22px 0}.statement p{color:#b7c6be;line-height:1.7;max-width:560px}.testimonials{background:var(--cream)}.quote-mark{font:700 120px/1 Georgia;color:#d7dbd4}.testimonial-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.testimonial-grid article{background:#fff;padding:36px;min-height:310px;display:flex;flex-direction:column}.stars{color:#b79432;font-size:11px;letter-spacing:3px}.testimonial-grid blockquote{font:500 18px/1.7 "Manrope";margin:26px 0 auto}.person{display:flex;align-items:center;gap:12px;margin-top:30px}.person i{margin:0;border:0;background:#d9e0d9}.person strong,.person span{display:block;font-size:11px}.person span{font-size:9px;color:#8a918b;margin-top:4px}.faq{display:grid;grid-template-columns:.7fr 1.3fr;gap:10vw;background:#fff}.faq>div>p{color:#8c938d;margin-top:35px}.accordion details{border-top:1px solid var(--line);padding:0 5px}.accordion details:last-child{border-bottom:1px solid var(--line)}.accordion summary{list-style:none;padding:26px 0;font:700 16px "Manrope";cursor:pointer;display:flex;justify-content:space-between}.accordion summary::-webkit-details-marker{display:none}.accordion summary b{font-size:22px;font-weight:400;transition:.2s}.accordion details[open] summary b{transform:rotate(45deg)}.accordion details p{color:#6d746e;font-size:13px;line-height:1.7;max-width:650px;margin:0 0 26px}.contact{background:var(--lime);color:var(--green);padding:90px 8vw;display:flex;justify-content:space-between;align-items:end}.contact .eyebrow{color:var(--green)}.contact .eyebrow span{background:var(--green)}.contact h2{font-size:clamp(46px,5.7vw,80px);margin:22px 0 0}.contact h2 em{color:#fff}.contact-actions{text-align:right}.btn-light{background:var(--green);color:#fff;margin-bottom:20px}.contact-actions>a:last-child{display:block;font:700 22px "Manrope"}footer{background:#101714;color:#fff;padding:60px 8vw 28px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:40px;align-items:start}.brand.light .brand-mark{background:var(--lime)}footer>p{font-size:11px;line-height:1.8;color:#8e9993;margin:0}.footer-links{display:grid;grid-template-columns:1fr 1fr;gap:14px;font-size:11px}.copyright{grid-column:1/-1;border-top:1px solid #2d332f;padding-top:22px;margin-top:35px;color:#707a74;font-size:9px}.whatsapp{position:fixed;right:24px;bottom:22px;z-index:20;background:var(--lime);color:var(--green);width:54px;height:54px;border-radius:50%;display:grid;place-items:center;font-weight:800;box-shadow:0 10px 30px #10251b55}.whatsapp span{position:absolute;right:64px;background:var(--green);color:#fff;padding:8px 12px;font-size:9px;opacity:0;transform:translateX(10px);transition:.2s;pointer-events:none}.whatsapp:hover span{opacity:1;transform:none}.toast{position:fixed;left:50%;bottom:25px;z-index:30;transform:translate(-50%,100px);opacity:0;background:var(--ink);color:#fff;padding:13px 20px;font-size:11px;transition:.3s}.toast.show{transform:translate(-50%,0);opacity:1}@media(max-width:1050px){.nav{display:none}.nav.open{display:flex;position:absolute;top:84px;left:0;right:0;padding:30px;background:#fff;flex-direction:column}.menu-btn{display:block}.header-call{display:none}.hero{grid-template-columns:1fr;min-height:auto}.hero-content{padding:90px 8vw 70px}.hero-visual{height:430px}.booking{grid-template-columns:1fr 1fr 1fr}.booking-title{grid-column:1/-1}.benefits{grid-template-columns:1fr 1fr}.fleet-grid{grid-template-columns:1fr}.car-card.wide{grid-column:auto;display:block}.testimonial-grid{grid-template-columns:1fr}.testimonial-grid article{min-height:250px}}@media(max-width:700px){.header{height:70px}.nav.open{top:70px}.hero-content{padding-top:70px}.hero h1,.section h2,.statement h2,.contact h2{letter-spacing:-3px}.hero h1{font-size:53px}.hero-actions{align-items:flex-start;flex-direction:column}.hero-proof{margin-top:45px}.hero-visual{height:320px}.floating-card{bottom:8%;left:5%}.booking-wrap{padding:0 5vw 50px}.booking{grid-template-columns:1fr;padding:22px;top:-18px}.booking-title{grid-column:auto}.booking label{border-left:0;border-top:1px solid #e6e8e4;padding:15px 0}.section{padding:75px 6vw}.intro{grid-template-columns:1fr;gap:30px}.benefits{grid-template-columns:1fr;padding:0 6vw 75px}.benefits article.featured{transform:none}.section-head{display:block}.fleet-filters{margin-top:30px;overflow:auto}.fleet-filters button{white-space:nowrap}.car-photo,.wide .car-photo{height:250px}.specs{flex-wrap:wrap}.statement{grid-template-columns:1fr;padding:80px 6vw;gap:55px}.statement-number{font-size:100px}.faq{grid-template-columns:1fr;gap:55px}.contact{display:block;padding:70px 6vw}.contact-actions{text-align:left;margin-top:40px}.contact-actions>a:last-child{font-size:18px}footer{grid-template-columns:1fr}.copyright{grid-column:auto}.scroll-cue{display:none}}
+/* Steel v2 — high-contrast premium palette */
+:root{--ink:#080808;--green:#101010;--lime:#f1d313;--cream:#f1f1ee;--paper:#fafafa;--muted:#686865;--line:#deded9}
+.hero-glow{background:#505050;opacity:.18}
+.hero-content>p,.hero-proof span,.statement p{color:#bdbdb7}
+.hero-visual:after{background:linear-gradient(90deg,#101010 0%,transparent 34%),linear-gradient(0deg,rgba(0,0,0,.58),transparent 52%)}
+.hero-visual img,.car-photo img{filter:saturate(.72) contrast(1.1)}
+.booking{box-shadow:0 20px 70px #00000017}
+.car-card:hover{box-shadow:0 25px 60px #00000018}
+.stars{color:#d2af00}
+footer{background:#080808}
+
+/* Steelrentacar.com birebir renk paleti */
+:root{
+  --ink:#f3f4f6;
+  --green:#0f172a;
+  --lime:#fbbf24;
+  --cream:#151f30;
+  --paper:#0f172a;
+  --muted:#94a3b8;
+  --line:rgba(255,255,255,.10)
+}
+body{background:#0f172a;color:#f3f4f6}
+.header{background:rgba(15,23,42,.96);border-color:rgba(255,255,255,.10);color:#f3f4f6}
+.header-call span,.eyebrow.dark,.intro-copy p,.benefits p,.car-info small,.specs,.faq>div>p,.accordion details p{color:#94a3b8}
+.nav a:after{background:#fbbf24}
+.menu-btn i{background:#f3f4f6}
+.hero,.statement{background:#0f172a}
+.hero-glow{background:#1e293b;opacity:.7}
+.hero-visual:after{background:linear-gradient(90deg,#0f172a 0%,transparent 36%),linear-gradient(0deg,rgba(15,23,42,.72),transparent 55%)}
+.booking-wrap,.intro,.benefits,.testimonials{background:#151f30}
+.booking,.fleet,.faq,.testimonial-grid article,.car-info{background:#1e293b;color:#f3f4f6}
+.booking{box-shadow:0 24px 70px #0006}
+.booking label,.car-card,.accordion details,.specs{border-color:rgba(255,255,255,.10)}
+.booking input,.booking select{color:#f3f4f6;color-scheme:dark}
+.section h2 em{color:#fbbf24}
+.benefits article{border-color:rgba(255,255,255,.10)}
+.benefits article:hover{background:#1e293b}
+.benefits article.featured{background:#fbbf24;color:#0f172a;border-color:#fbbf24}
+.benefits article.featured p{color:#334155}
+.benefit-icon{color:#fbbf24}
+.featured .benefit-icon{color:#0f172a}
+.fleet-filters button{background:#1e293b;color:#f3f4f6;border-color:rgba(255,255,255,.14)}
+.fleet-filters button.active{background:#fbbf24;color:#0f172a;border-color:#fbbf24}
+.car-card{background:#1e293b}
+.car-photo{background:#151f30}
+.quote-mark{color:#334155}
+.person i{background:#334155;color:#f3f4f6}
+.contact{background:#fbbf24;color:#0f172a}
+.contact h2 em{color:#fff}
+.btn-primary{background:#fbbf24;color:#0f172a}
+.btn-primary:hover{background:#fff;color:#0f172a}
+.btn-light{background:#0f172a;color:#fff}
+.whatsapp{background:#fbbf24;color:#0f172a}
+footer{background:#0b1120}
+
+/* Referanstaki dikey hızlı teklif kartı */
+.booking-wrap{
+  min-height:610px;
+  padding:72px 6vw;
+  display:grid;
+  place-items:center;
+  position:relative;
+  isolation:isolate;
+  background:
+    linear-gradient(rgba(11,17,32,.86),rgba(11,17,32,.94)),
+    url("https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&q=75&w=1600") center/cover;
+}
+.booking-wrap:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background:radial-gradient(circle at 50% 40%,rgba(251,191,36,.08),transparent 42%);
+}
+.booking{
+  top:0;
+  width:min(100%,420px);
+  min-height:auto;
+  margin:0;
+  padding:32px 28px 28px;
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+  align-items:stretch;
+  background:#1e293b;
+  border:1px solid #3a465a;
+  border-radius:18px;
+  box-shadow:0 28px 80px rgba(0,0,0,.45);
+}
+.booking-title{display:block}
+.booking-title strong{
+  font:800 20px/1.2 "Manrope",sans-serif;
+  color:#fff;
+  margin:0 0 4px;
+}
+.booking label{
+  display:block;
+  padding:0;
+  border:0;
+}
+.booking label>span{
+  margin-bottom:8px;
+  color:#94a3b8;
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:0;
+  text-transform:none;
+}
+.booking input,.booking select{
+  width:100%;
+  height:46px;
+  padding:0 13px;
+  border:1px solid #334155;
+  border-radius:8px;
+  background:#111a2e;
+  color:#f3f4f6;
+  font-size:12px;
+  font-weight:600;
+  outline:none;
+  color-scheme:dark;
+}
+.booking input:focus,.booking select:focus{
+  border-color:#fbbf24;
+  box-shadow:0 0 0 3px rgba(251,191,36,.12);
+}
+.date-fields{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+}
+.booking-submit{
+  width:100%;
+  height:46px;
+  border:0;
+  border-radius:999px;
+  background:linear-gradient(100deg,#fbbf24,#ee8608);
+  color:#0f172a;
+  font-size:12px;
+  font-weight:800;
+  cursor:pointer;
+  box-shadow:0 8px 20px rgba(251,191,36,.24);
+  transition:transform .2s,box-shadow .2s;
+}
+.booking-submit:hover{
+  transform:translateY(-2px);
+  box-shadow:0 12px 26px rgba(251,191,36,.34);
+}
+.booking-note{margin:-6px 0 0;text-align:center;color:#94a3b8;font-size:9px;line-height:1.5}
+.trust-strip{padding:30px 8vw;background:#fbbf24;color:#0f172a;display:grid;grid-template-columns:repeat(4,1fr);gap:30px}
+.trust-strip>div{display:flex;align-items:center;gap:13px}
+.trust-strip b{width:34px;height:34px;border:1px solid rgba(15,23,42,.3);border-radius:50%;display:grid;place-items:center}
+.trust-strip strong,.trust-strip small{display:block}.trust-strip strong{font-size:12px}.trust-strip small{font-size:9px;margin-top:3px;opacity:.7}
+.location-section{padding:100px 8vw;background:#151f30;display:grid;grid-template-columns:1fr 1fr;gap:10vw;align-items:center}
+.location-section h2{font:700 clamp(44px,5vw,72px)/.95 "Manrope";letter-spacing:-4px;margin:22px 0 0}.location-section h2 em{font-style:normal;color:#fbbf24}
+.location-card{background:#1e293b;border:1px solid rgba(255,255,255,.1);padding:40px}
+.location-card>span{font-size:9px;color:#fbbf24;letter-spacing:2px;font-weight:800}.location-card h3{font:700 24px/1.4 "Manrope";margin:15px 0}.location-card p{color:#94a3b8}.location-card>div{display:flex;align-items:center;gap:25px;margin-top:30px}.location-card>div>a:last-child{font-size:12px;font-weight:700;border-bottom:1px solid #fff;padding-bottom:5px}
+.select-car.selected{color:#fbbf24}
+@media(max-width:700px){
+  .booking-wrap{min-height:570px;padding:48px 18px}
+  .booking{top:0;grid-template-columns:none;padding:27px 20px}
+  .booking-title{grid-column:auto}
+  .booking label{padding:0;border:0}
+  .date-fields{gap:8px}
+  .trust-strip{grid-template-columns:1fr 1fr;padding:30px 6vw;gap:24px 14px}
+  .location-section{grid-template-columns:1fr;padding:75px 6vw;gap:45px}
+  .location-card{padding:28px 22px}
+}
+
+/* Dil seçimi ve teklif kartı v2 */
+.header-tools{display:flex;align-items:center;gap:22px}
+.language-picker{height:46px;padding:0 10px 0 14px;display:flex;align-items:center;gap:10px;background:#fbbf24;border:1px solid #fbbf24;border-radius:10px;box-shadow:0 6px 18px rgba(251,191,36,.18);cursor:pointer}
+.language-picker span{font-size:12px;color:#0f172a;white-space:nowrap}.language-picker span b{font-size:9px;letter-spacing:1px}.language-picker select{height:32px;min-width:78px;padding:0 8px;background:#0f172a;color:#fff;border:0;border-radius:6px;outline:0;font-size:11px;font-weight:800;cursor:pointer}.language-picker option{background:#0f172a}
+.booking-head{display:flex;gap:14px;align-items:center;padding-bottom:4px}
+.booking-icon{width:42px;height:42px;flex:0 0 42px;display:grid;place-items:center;border-radius:12px;background:#fbbf24;color:#0f172a;font-weight:900;font-size:18px}
+.booking-head strong{font:800 20px/1.2 "Manrope",sans-serif;color:#fff}
+.booking-head p{margin:5px 0 0;color:#94a3b8;font-size:10px;line-height:1.45}
+.selected-car-box{position:relative;background:#111a2e;border:1px solid #334155;border-radius:10px;padding:13px 75px 13px 13px}
+.selected-car-box span,.selected-car-box strong{display:block}.selected-car-box span{font-size:7px;letter-spacing:1.4px;color:#94a3b8;margin-bottom:5px}.selected-car-box strong{font-size:12px;color:#f3f4f6}.selected-car-box a{position:absolute;right:13px;top:50%;transform:translateY(-50%);font-size:9px;color:#fbbf24;font-weight:700}
+.booking-assurance{display:flex;justify-content:center;gap:13px;color:#94a3b8;font-size:8px}.booking-assurance i,.hero i,.eyebrow i{font-style:normal}
+html[dir="rtl"] .hero-content{text-align:right;padding-left:0;padding-right:8vw}
+html[dir="rtl"] .eyebrow{flex-direction:row-reverse;justify-content:flex-end}
+html[dir="rtl"] .selected-car-box{padding:13px 13px 13px 75px}
+html[dir="rtl"] .selected-car-box a{right:auto;left:13px}
+html[dir="rtl"] .contact-actions{text-align:left}
+@media(max-width:1050px){.header-tools{margin-left:auto;margin-right:12px}.header-tools .header-call{display:none}}
+
+/* Fotoğraflı avantaj kartları */
+.benefits{gap:16px}
+.benefits article,.benefits article.featured{min-height:420px;padding:0;overflow:hidden;display:block;background:#1e293b;border:1px solid rgba(255,255,255,.1);transform:none}
+.benefits article:hover,.benefits article.featured:hover{transform:translateY(-8px)}
+.benefit-photo{height:168px;position:relative;overflow:hidden}
+.benefit-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(15,23,42,.8),transparent 60%)}
+.benefit-photo img{height:100%;object-fit:cover;filter:saturate(.72) contrast(1.08);transition:transform .5s}
+.benefits article:hover .benefit-photo img{transform:scale(1.06)}
+.benefit-photo span{position:absolute;z-index:2;left:18px;top:16px;width:30px;height:30px;display:grid;place-items:center;border-radius:50%;background:#fbbf24;color:#0f172a;font-size:9px;font-weight:800}
+.benefit-body{padding:24px}.benefit-body .benefit-icon{margin:0 0 22px}.benefits article.featured{color:#f3f4f6}.benefits article.featured p{color:#94a3b8}.featured .benefit-icon{color:#fbbf24}
+
+/* Kendiliğinden kayan yorum şeridi */
+.testimonial-slider{width:100%;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+.testimonial-grid{display:flex;width:max-content;gap:20px;animation:none}
+.testimonial-grid.is-looping{animation:testimonialScroll 48s linear infinite}
+.testimonial-slider:hover .testimonial-grid,.testimonial-slider:focus-within .testimonial-grid{animation-play-state:paused}
+.testimonial-grid article{width:380px;min-height:310px;flex:0 0 380px}
+@keyframes testimonialScroll{from{transform:translateX(0)}to{transform:translateX(calc(-50% - 10px))}}
+html[dir="rtl"] .testimonial-grid.is-looping{animation-name:testimonialScrollRtl}
+@keyframes testimonialScrollRtl{from{transform:translateX(0)}to{transform:translateX(calc(50% + 10px))}}
+
+@media(max-width:1050px){
+  .benefits{grid-template-columns:1fr 1fr}
+  .testimonial-grid.is-looping{animation-duration:42s}
+}
+@media(max-width:700px){
+  .benefits{grid-template-columns:1fr;padding-left:6vw;padding-right:6vw}
+  .benefits article,.benefits article.featured{min-height:390px}
+  .benefit-photo{height:185px}
+  .testimonial-slider{margin-left:-6vw;width:112vw;mask-image:none;-webkit-mask-image:none}
+  .testimonial-grid{gap:12px}.testimonial-grid.is-looping{animation-duration:38s}
+  .testimonial-grid article{width:82vw;flex-basis:82vw;min-height:285px;padding:28px}
+  .testimonial-grid blockquote{font-size:16px}
+  .date-fields{grid-template-columns:1fr}
+  .booking-assurance{flex-wrap:wrap}
+}
+@media(prefers-reduced-motion:reduce){.testimonial-grid.is-looping{animation:none}}
+.whatsapp>img{width:25px;height:25px;object-fit:contain;filter:none}

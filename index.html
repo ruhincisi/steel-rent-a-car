@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Şanlıurfa'da yeni model araçlar, şeffaf fiyatlar ve 7/24 destek ile premium araç kiralama.">
+  <title>STEEL Rent A Car | Şanlıurfa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#anasayfa" aria-label="Steel Rent A Car ana sayfa">
+      <span class="brand-mark">S</span>
+      <span>STEEL<small>RENT A CAR</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#filo">Araçlar</a>
+      <a href="#avantajlar">Neden Steel?</a>
+      <a href="#yorumlar">Yorumlar</a>
+      <a href="#sss">SSS</a>
+      <a href="#iletisim">İletişim</a>
+    </nav>
+    <div class="header-tools">
+      <label class="language-picker" aria-label="Dil seçimi"><span>🌐 <b>DİL</b></span><select id="languageSelect"><option value="tr">Türkçe</option><option value="en">English</option><option value="ar">العربية</option></select></label>
+      <a class="header-call" href="tel:+905417980949"><span data-i18n="callNow">Hemen Ara</span> +90 541 798 09 49</a>
+    </div>
+    <button class="menu-btn" aria-label="Menüyü aç" aria-expanded="false"><i></i><i></i></button>
+  </header>
+
+  <main>
+    <section class="hero" id="anasayfa">
+      <div class="hero-glow"></div>
+      <div class="hero-content">
+        <div class="eyebrow"><span></span> <i data-i18n="heroEyebrow">ŞANLIURFA’DA PREMIUM ARAÇ KİRALAMA</i></div>
+        <h1><span data-i18n="heroTitle">Yolculuğun</span><br><em data-i18n="heroAccent">seninle başlar.</em></h1>
+        <p data-i18n="heroText">Yeni model araçlar, şeffaf fiyatlandırma ve her an yanında olan gerçek bir ekip. Anahtarı teslim al, gerisini bize bırak.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#rezervasyon"><i data-i18n="chooseCar">Aracını şimdi seç</i> <b>→</b></a>
+          <a class="play-link" href="#filo"><span>▶</span> <i data-i18n="exploreFleet">Filoyu keşfet</i></a>
+        </div>
+        <div class="hero-proof">
+          <div class="avatars"><i>AK</i><i>MD</i><i>SY</i><i>+</i></div>
+          <div><strong>4.9 / 5</strong><span>Mutlu misafirlerimizden</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="car-outline"></div>
+        <img src="https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&q=90&w=1600" alt="Premium kiralık otomobil">
+        <div class="floating-card"><span>✓</span><div><strong>Hızlı teslimat</strong><small>15 dakikada yola çık</small></div></div>
+        <div class="hero-index">01 <span>/ 04</span></div>
+      </div>
+      <div class="scroll-cue">KEŞFET <span>↓</span></div>
+    </section>
+
+    <section class="booking-wrap" id="rezervasyon">
+      <form class="booking" id="bookingForm">
+        <div class="booking-head"><div class="booking-icon">↗</div><div><strong data-i18n="quickQuote">Hızlı Teklif Al</strong><p data-i18n="quoteSub">Bilgilerini gönder, en iyi teklifimizle hemen dönelim.</p></div></div>
+        <div class="selected-car-box"><span data-i18n="selectedVehicle">SEÇİLEN ARAÇ</span><strong id="selectedCarName" data-i18n="noPreference">Henüz araç seçilmedi</strong><a href="#filo" data-i18n="changeVehicle">Değiştir</a></div>
+        <div class="date-fields">
+          <label><span data-i18n="pickupDate">Alış Tarihi</span><input id="startDate" type="date" required></label>
+          <label><span data-i18n="returnDate">İade Tarihi</span><input id="endDate" type="date" required></label>
+        </div>
+        <div class="date-fields">
+          <label><span data-i18n="pickupTime">Alış Saati</span><input id="startTime" type="time" value="10:00" required></label>
+          <label><span data-i18n="phone">Telefon</span><input id="customerPhone" type="tel" inputmode="tel" placeholder="05xx xxx xx xx" required></label>
+        </div>
+        <input id="carClass" type="hidden" value="Fark etmez">
+        <label><span data-i18n="deliveryPreference">Teslimat Tercihi</span><select id="delivery"><option>Ofisten teslim alacağım</option><option>GAP Havalimanı teslimatı</option><option>Otogar teslimatı</option><option>Adresime teslimat istiyorum</option></select></label>
+        <button class="booking-submit" type="submit"><b>◉</b> <span data-i18n="askAvailability">Müsaitlik Sor</span></button>
+        <div class="booking-assurance"><span>✓ <i data-i18n="freeQuote">Ücretsiz teklif</i></span><span>✓ <i data-i18n="fastReply">Hızlı dönüş</i></span><span>✓ <i data-i18n="noHiddenFee">Gizli ücret yok</i></span></div>
+      </form>
+    </section>
+
+    <section class="section intro" id="avantajlar">
+      <div>
+        <div class="eyebrow dark"><span></span> NEDEN STEEL?</div>
+        <h2>Kiralamanın<br><em>iyi hali.</em></h2>
+      </div>
+      <div class="intro-copy">
+        <p>Biz yalnızca araç teslim etmiyoruz. Şanlıurfa’daki yolculuğunuzun her anını daha kolay, daha güvenli ve daha keyifli hale getiriyoruz.</p>
+        <a href="#iletisim">Bizi yakından tanıyın <b>↗</b></a>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <article><div class="benefit-photo"><img src="images/benefit-fast.jpg" alt="Müşteriye hızlı araç anahtarı teslimi" loading="lazy"><span>01</span></div><div class="benefit-body"><div class="benefit-icon">◴</div><h3>Hızlı & Esnek</h3><p>Planlar değişebilir. Rezervasyonunu kolayca güncelle, vaktini yolda geçir.</p></div></article>
+      <article class="featured"><div class="benefit-photo"><img src="images/benefit-insurance.jpg" alt="Güvence ve kiralama sözleşmesi" loading="lazy"><span>02</span></div><div class="benefit-body"><div class="benefit-icon">◇</div><h3>Güvence Dahil</h3><p>Bakımlı araçlar ve kapsamlı güvence paketleriyle kafan daima rahat.</p></div></article>
+      <article><div class="benefit-photo"><img src="images/benefit-fleet.jpg" alt="Düzenli ve geniş araç filosu" loading="lazy"><span>03</span></div><div class="benefit-body"><div class="benefit-icon">✦</div><h3>Yeni Model Filo</h3><p>Temiz, konforlu, yakıtı verimli ve özenle seçilmiş otomobiller.</p></div></article>
+      <article><div class="benefit-photo"><img src="images/benefit-support.jpg" alt="Günün her saati müşteri desteği" loading="lazy"><span>04</span></div><div class="benefit-body"><div class="benefit-icon">◎</div><h3>7/24 Yanında</h3><p>Bir sorunda otomatik yanıta değil, gerçekten yardımcı olan ekibimize ulaşırsın.</p></div></article>
+    </section>
+
+    <section class="fleet section" id="filo">
+      <div class="section-head">
+        <div><div class="eyebrow dark"><span></span> ÖNE ÇIKAN ARAÇLAR</div><h2>Tarzına uygun<br><em>bir yol arkadaşı.</em></h2></div>
+        <div class="fleet-filters" role="group" aria-label="Araç filtresi"><button class="active" data-filter="all">Tümü</button><button data-filter="ekonomi">Ekonomi</button><button data-filter="suv">SUV</button><button data-filter="premium">Premium</button></div>
+      </div>
+      <div class="fleet-grid">
+        <article class="car-card" data-category="ekonomi">
+          <div class="car-photo"><span>EKONOMİK</span><img src="images/renault-clio.jpg" alt="Renault Clio" loading="lazy"></div>
+          <div class="car-info"><small>2024 MODEL — BENZİN / DİZEL</small><h3>Renault Clio</h3><div class="specs"><span>◉ Benzin</span><span>⚙ Otomatik</span><span>♙ 5 Kişi</span></div><a class="select-car" data-car="Renault Clio" href="#rezervasyon">Bu aracı seç <b>→</b></a></div>
+        </article>
+        <article class="car-card" data-category="suv">
+          <div class="car-photo"><span>TİCARİ / GENİŞ</span><img src="images/peugeot-partner.jpg" alt="Peugeot Partner 2025" loading="lazy"></div>
+          <div class="car-info"><small>YENİ KASA — GENİŞ AİLE & İŞ</small><h3>Peugeot Partner 2025</h3><div class="specs"><span>◉ Dizel</span><span>⚙ Manuel</span><span>▣ Geniş Bagaj</span></div><a class="select-car" data-car="Peugeot Partner 2025" href="#rezervasyon">Bu aracı seç <b>→</b></a></div>
+        </article>
+        <article class="car-card" data-category="ekonomi">
+          <div class="car-photo"><span>KOMPAKT</span><img src="images/vw-polo.jpg" alt="Volkswagen Polo" loading="lazy"></div>
+          <div class="car-info"><small>ŞEHİR İÇİ SERİ KULLANIM</small><h3>Volkswagen Polo</h3><div class="specs"><span>◉ Benzin</span><span>⚙ Otomatik</span><span>♙ 5 Kişi</span></div><a class="select-car" data-car="Volkswagen Polo" href="#rezervasyon">Bu aracı seç <b>→</b></a></div>
+        </article>
+        <article class="car-card" data-category="premium">
+          <div class="car-photo"><span>PREMIUM HB</span><img src="images/vw-golf.jpg" alt="Volkswagen Golf" loading="lazy"></div>
+          <div class="car-info"><small>KONFOR VE GÜÇ</small><h3>Volkswagen Golf</h3><div class="specs"><span>◉ Dizel</span><span>⚙ Otomatik</span><span>✦ Premium</span></div><a class="select-car" data-car="Volkswagen Golf" href="#rezervasyon">Bu aracı seç <b>→</b></a></div>
+        </article>
+        <article class="car-card wide" data-category="premium">
+          <div class="car-photo"><span>VIP / MAKAM</span><img src="images/audi-passat.jpg" alt="Audi veya Volkswagen Passat" loading="lazy"></div>
+          <div class="car-info"><small>PRESTİJ İSTEYENLERE</small><h3>Audi / Passat</h3><div class="specs"><span>◉ Dizel</span><span>⚙ Otomatik</span><span>✦ Lüks</span></div><a class="select-car" data-car="Audi / Passat" href="#rezervasyon">Bu aracı seç <b>→</b></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="statement-number">500<sup>+</sup><small>mutlu yolculuk</small></div>
+      <div><div class="eyebrow"><span></span> STEEL DENEYİMİ</div><h2>Direksiyonda sen,<br><em>arkanda biz varız.</em></h2><p>Rezervasyondan araç iadesine kadar tek bir sözümüz var: işini kolaylaştırmak.</p></div>
+    </section>
+
+    <section class="trust-strip" aria-label="Hizmet güvenceleri">
+      <div><b>✓</b><span><strong>Şeffaf teklif</strong><small>Sonradan çıkan ücret yok</small></span></div>
+      <div><b>✓</b><span><strong>Bakımlı araçlar</strong><small>Her teslimat öncesi kontrol</small></span></div>
+      <div><b>✓</b><span><strong>Esnek teslimat</strong><small>Havalimanı, otogar ve adres</small></span></div>
+      <div><b>✓</b><span><strong>7/24 destek</strong><small>Yol boyunca gerçek destek</small></span></div>
+    </section>
+
+    <section class="testimonials section" id="yorumlar">
+      <div class="section-head"><div><div class="eyebrow dark"><span></span> MİSAFİR YORUMLARI</div><h2>Yola çıkanlar<br><em>ne diyor?</em></h2></div><div class="quote-mark">“</div></div>
+      <div class="testimonial-slider" aria-label="Müşteri yorumları">
+      <div class="testimonial-grid">
+        <article><div class="stars">★★★★★</div><blockquote>“Araç teslimi çok hızlıydı, fiyatlar şeffaf ve araç sıfır gibiydi. Kesinlikle tekrar tercih ederim.”</blockquote><div class="person"><i>AK</i><div><strong>Ayşe K.</strong><span>Doğrulanmış müşteri</span></div></div></article>
+        <article><div class="stars">★★★★★</div><blockquote>“Rezervasyonu değiştirmem gerekti ve anında yardımcı oldular. Böyle ilgili bir ekip bulmak zor.”</blockquote><div class="person"><i>MD</i><div><strong>Murat D.</strong><span>Doğrulanmış müşteri</span></div></div></article>
+        <article><div class="stars">★★★★★</div><blockquote>“Uzun yolculuk için SUV seçtik. Araç çok temiz, konforlu ve bakımlıydı. Gönül rahatlığıyla tavsiye ederim.”</blockquote><div class="person"><i>SR</i><div><strong>Selin R.</strong><span>Doğrulanmış müşteri</span></div></div></article>
+        <article><div class="stars">★★★★★</div><blockquote>“Havalimanında araç hazırdı. Evrak işlemleri kısa sürdü ve hiç beklemeden yola çıktık.”</blockquote><div class="person"><i>EY</i><div><strong>Emre Y.</strong><span>Doğrulanmış müşteri</span></div></div></article>
+        <article><div class="stars">★★★★★</div><blockquote>“Partner geniş ailemiz için çok rahattı. Araç temizdi, çocuk koltuğu konusunda da yardımcı oldular.”</blockquote><div class="person"><i>ZŞ</i><div><strong>Zeynep Ş.</strong><span>Doğrulanmış müşteri</span></div></div></article>
+        <article><div class="stars">★★★★★</div><blockquote>“Şanlıurfa seyahatimde ikinci kez tercih ettim. İletişimleri hızlı, fiyatlandırmaları gerçekten net.”</blockquote><div class="person"><i>BK</i><div><strong>Burak K.</strong><span>Doğrulanmış müşteri</span></div></div></article>
+        <article><div class="stars">★★★★★</div><blockquote>“Araç bakımlı ve yakıtı ekonomikti. Teslim ederken de gereksiz hiçbir işlemle uğraştırmadılar.”</blockquote><div class="person"><i>HA</i><div><strong>Hasan A.</strong><span>Doğrulanmış müşteri</span></div></div></article>
+        <article><div class="stars">★★★★★</div><blockquote>“WhatsApp üzerinden çok hızlı teklif aldım. Söylenen fiyat dışında sonradan hiçbir ücret çıkmadı.”</blockquote><div class="person"><i>NT</i><div><strong>Nazlı T.</strong><span>Doğrulanmış müşteri</span></div></div></article>
+      </div>
+      </div>
+    </section>
+
+    <section class="faq section" id="sss">
+      <div><div class="eyebrow dark"><span></span> MERAK ETTİKLERİN</div><h2>Kısa cevaplar,<br><em>net bilgiler.</em></h2><p>Aklında başka bir soru mu var?</p><a href="https://wa.me/905417980949?text=Merhaba%20STEEL%20Rent%20A%20Car%2C%20ara%C3%A7%20kiralama%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener">WhatsApp’tan sor <b>↗</b></a></div>
+      <div class="accordion">
+        <details open><summary>Depozito talep ediyor musunuz?<b>+</b></summary><p>Araç sınıfına göre değişmekle birlikte kredi kartı ile provizyon alınabilir. Detayları rezervasyondan önce açıkça paylaşırız.</p></details>
+        <details><summary>Yakıt politikanız nedir?<b>+</b></summary><p>Tam dolu al, tam dolu bırak prensibiyle çalışıyoruz. Böylece yalnızca kullandığınız yakıtı ödersiniz.</p></details>
+        <details><summary>Aracı farklı bir noktada teslim edebilir miyim?<b>+</b></summary><p>Müsaitliğe bağlı olarak havalimanı, otogar veya belirlediğiniz adreste teslimat seçenekleri sunabiliriz.</p></details>
+        <details><summary>Kiralamak için yaş sınırı nedir?<b>+</b></summary><p>Standart araçlarda genellikle 21 yaş ve en az 2 yıllık ehliyet şartı aranır. Araç grubuna göre koşullar değişebilir.</p></details>
+      </div>
+    </section>
+
+    <section class="contact" id="iletisim">
+      <div><div class="eyebrow"><span></span> YOLA ÇIKMAYA HAZIR MISIN?</div><h2>Bir sonraki rota<br><em>buradan başlıyor.</em></h2></div>
+      <div class="contact-actions"><a class="btn btn-light" href="https://wa.me/905417980949?text=Merhaba%20STEEL%20Rent%20A%20Car%2C%20ara%C3%A7%20kiralama%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener">WhatsApp’tan yaz <b>↗</b></a><a href="tel:+905417980949">+90 541 798 09 49</a></div>
+    </section>
+    <section class="location-section">
+      <div><div class="eyebrow dark"><span></span> BİZİ NEREDE BULURSUN?</div><h2>Şanlıurfa’nın<br><em>merkezindeyiz.</em></h2></div>
+      <div class="location-card"><span>STEEL RENT A CAR</span><h3>Paşabağı Mahallesi, ŞUTİM 3. Sokak No:68</h3><p>Haliliye / Şanlıurfa</p><div><a class="btn btn-primary" href="https://www.google.com/maps/place/STEEL+ŞANLIURFA+RENT+A+CAR+ARAÇ+KİRALAMA/@37.1552548,38.8055266,17z/data=!3m1!4b1!4m6!3m5!1s0x1534710ec545a6e3:0x3c7cc33033929c07!8m2!3d37.1552506!4d38.8081069!16s%2Fg%2F11xvbcyvhq?entry=ttu&amp;g_ep=EgoyMDI2MDcyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Yol tarifi al ↗</a><a href="tel:+905417980949">Bizi ara</a></div></div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand light" href="#anasayfa"><span class="brand-mark">S</span><span>STEEL<small>RENT A CAR</small></span></a>
+    <p>Paşabağı Mah. ŞUTİM 3. Sokak No:68<br>Haliliye / Şanlıurfa</p>
+    <div class="footer-links"><a href="#filo">Araçlar</a><a href="#avantajlar">Neden Steel?</a><a href="#sss">SSS</a><a href="https://www.instagram.com/steelrentacar" target="_blank" rel="noopener">Instagram ↗</a></div>
+    <div class="copyright">© <span id="year"></span> STEEL Rent A Car. Tüm hakları saklıdır.</div>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/905417980949?text=Merhaba%20STEEL%20Rent%20A%20Car%2C%20ara%C3%A7%20kiralama%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener" aria-label="WhatsApp ile iletişim"><img src="images/whatsapp.svg" alt="" aria-hidden="true"><span>WhatsApp</span></a>
+  <div class="toast" role="status">WhatsApp’a yönlendiriliyorsun…</div>
+  <script src="script.js"></script>
+</body>
+</html>
