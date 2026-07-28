@@ -224,10 +224,10 @@ html[dir="rtl"] .testimonial-grid.is-looping{animation-name:testimonialScrollRtl
 @media(prefers-reduced-motion:reduce){.testimonial-grid.is-looping{animation:none}}
 .whatsapp>img{width:25px;height:25px;object-fit:contain;filter:none}
 .copyright{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
-.developer-credit{display:flex;align-items:center;gap:8px;color:#94a3b8}
-.lde-signature{font:900 15px/1 "Manrope",sans-serif;letter-spacing:2px;background:linear-gradient(90deg,#fbbf24,#ff7a18,#ff3d81,#8b5cf6,#22d3ee);background-size:220% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:ldeColor 4s linear infinite;filter:drop-shadow(0 0 8px rgba(251,191,36,.25))}
+.developer-credit{display:flex;align-items:center;gap:11px;color:#94a3b8;font-size:13px}
+.lde-signature{font:900 22px/1 "Manrope",sans-serif;letter-spacing:2.5px;background:linear-gradient(90deg,#fbbf24,#ff7a18,#ff3d81,#8b5cf6,#22d3ee);background-size:220% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:ldeColor 4s linear infinite;filter:drop-shadow(0 0 8px rgba(251,191,36,.25))}
 .lde-signature:hover{transform:translateY(-1px)}
-.developer-email{color:#cbd5e1;border-left:1px solid #334155;padding-left:10px;transition:color .2s}
+.developer-email{color:#cbd5e1;border-left:1px solid #334155;padding-left:12px;font-size:13px;font-weight:600;transition:color .2s}
 .developer-email:hover{color:#fbbf24}
 @keyframes ldeColor{to{background-position:220% center}}
-@media(max-width:700px){.copyright{align-items:flex-start;flex-direction:column}.developer-credit{flex-wrap:wrap}.developer-email{width:100%;border-left:0;padding-left:0;margin-top:3px}}
+@media(max-width:700px){.copyright{align-items:flex-start;flex-direction:column}.developer-credit{flex-wrap:wrap;font-size:12px}.lde-signature{font-size:20px}.developer-email{width:100%;border-left:0;padding-left:0;margin-top:5px;font-size:12px}}
